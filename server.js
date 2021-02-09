@@ -11,6 +11,7 @@ dotenv.config({ path: './config/config.env' })
 // connect to datatbase
 connectDB()
 
+
 const bootcamps = require('./routes/bootcamps')
 
 
